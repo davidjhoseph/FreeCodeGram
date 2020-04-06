@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-3 py-3 text-center">
             <img src=
-            '{{ $user->profile ? "/storage/{$user->profile->image}":"https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" }}'
+            '{{ $user->profile->image ? "/storage/{$user->profile->image}":"https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" }}'
              alt="logo" style="width:50%" class="rounded-circle">
         </div>
         <div class="col-9 p-3">

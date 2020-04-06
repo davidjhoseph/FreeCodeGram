@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
-                <div><img src="freecodecamplogo.jpg" style="height: 20px; border-right: 1px solid #333" class="pr-3"></div>
+                <div><img src="/storage/default/logo.jpg" style="height: 40px; width: 40px; border-right: 1px solid #333" class="mr-3 rounded-circle"></div>
                 <div class="pl-3 mt-1">freeCodeGram</div>
                     
                 </a>
